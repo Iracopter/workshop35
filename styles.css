@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: radial-gradient(circle, rgba(63,250,251,1) 0%, rgba(252,70,233,1) 100%);
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user_list{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    padding: 50px;
+    line-height: 40px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 10px 5px 15px rgb(114, 113, 113);
+    font-size: large;
+}
+
+.user_name{
+    color: black;
+}
+
+.user_name:hover{
+    color: rgb(68, 21, 112);
+    text-decoration: none;
+}
+
+.posts_list{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.post{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    background-color: white;
+    width: 550px;
+    color: black;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    box-shadow: 10px 5px 15px rgb(114, 113, 113);
+    padding: 20px;
+}
+
+.post_title{
+    line-height: 40px;
+    color: black;
+    font-size: large;
+}
+
+.post_title:hover{
+    color: rgb(68, 21, 112);
+    text-decoration: none;
+}
+
+.headers{
+    text-align: center;
+    color: black;
+    line-height: 40px;
+    font-size: large;
+}
+
+.message{
+    text-align: center;
+    color: black;
+    line-height: 40px;
+    font-size: large;
+}
+
+.back_link{
+    align-items: center;
+    padding-left: 47%;
+    color: black;
+    line-height: 40px;
+    font-size: large;
+}
+
+.back_link:hover{
+    color: rgb(68, 21, 112);
+    text-decoration: none;
+}
+
+.coment{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    background-color: white;
+    width: 550px;
+    color: black;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    box-shadow: 10px 5px 15px rgb(114, 113, 113);
+    padding: 20px;
+
+}
